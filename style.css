@@ -247,6 +247,7 @@ footer {
     width: 80%;
     justify-self: center;
     padding: 20px;
+    margin: 0 auto;
   }
 
   .wrap5 {
@@ -335,7 +336,7 @@ footer {
     padding: 20px;
     width: 80%;
     justify-self: center;
-    margin-top: 60px;
+    margin: 0 auto;
 
 }
 .wrap9, .wrap8, .wrap7 , .wrap4 {
