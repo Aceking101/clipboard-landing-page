@@ -23,7 +23,7 @@ header {
     text-align: center;
     padding: 20px;
     margin: 30px auto ;
-    width: 600px;
+    width: 50%;
 }
 .head1 {
     font-size: 18px;
@@ -63,9 +63,9 @@ button {
 .wrap2 {
     text-align: center;
     padding: 20px;
-    width: 600px;
+    width: 50%;
     justify-self: center;
-    margin-top: 60px;
+    margin: 50px auto;
 
 }
 .head2 {
@@ -77,12 +77,12 @@ button {
 .wrap3 {
     display: flex;
     flex-direction: row;
-    margin-top: 70px;
-    gap: 80px;
+    margin: auto 0px;
+    gap: 1.25rem ;
 }
 .img2 {
-    width: 550px;
-   
+    width: 40%;
+    height: auto;
 }
 .head {
     font-size: 18px;
@@ -93,15 +93,14 @@ button {
     margin-top: 60px;
     line-height: 1.5;
     margin-right: 30px;
-    width: 350px;
+    width: 40%;
 }
 .wrap4 {
     text-align: center;
     padding: 20px;
-    width: 600px;
+    width: 50%;
     justify-self: center;
-    margin-top: 60px;
-    
+    margin : 60px auto;
 }
 .head6 {
     font-size: 18px;
@@ -110,25 +109,25 @@ button {
 }
 .wrap5 {
     text-align: center;
-    margin-top: 30px;
+    margin : 30px auto;
 }
 .img3 {
-   width: 600px;
+   width: 40%;
 }
 .wrap6 {
     text-align: center;
     padding: 20px;
-    width: 600px;
+    width: 50%;
     justify-self: center;
-    margin-top: 10px;
+    margin: 30px auto;
 }
 
 .wrap7 {
     text-align: center;
     padding: 20px;
     justify-self: center;
-    margin-top: 10px;
-    width: 800px;
+    margin: 30px auto;
+    width: 60%;
     display: flex;
     flex-direction: row;
     gap: 30px;
@@ -163,7 +162,6 @@ button {
 .log3 {
    height: 22px;
    width: 24px;
-    font-size: smaller;
 }
 .head9 {
     font-size: 16px;
@@ -193,10 +191,9 @@ button {
 .wrap9 {
     text-align: center;
     padding: 20px;
-    width: 600px;
+    width: 50%;
     justify-self: center;
-    margin-top: 10px;
-    margin-bottom: 50px;
+    margin: 30px auto;
 }
 footer {
    background-color: hsl(220, 18%, 97%);
@@ -239,15 +236,15 @@ footer {
     height: 24px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 630px) {
     * {
         box-sizing: border-box;
     }
       .wrap1 {
-    width: 80%;
+    width: 70%;
     justify-self: center;
     padding: 20px;
-    margin: 10px auto;
+    margin: 30px auto;
   }
 
   .wrap5 {
@@ -339,8 +336,12 @@ footer {
     margin: 0 auto;
 
 }
-.wrap9, .wrap8, .wrap7 , .wrap4 {
+.wrap8, .wrap7 , .wrap4 {
     width: 80%;
+    margin: 0 auto;
+}
+.wrap9 {
+    width: 70%;
     margin: 0 auto;
 }
 .wrap8  {
@@ -365,7 +366,6 @@ footer {
 }
 body {
     width: 100%;
-       width: 100%;
     max-width: 100vw;
     overflow-x: hidden;
     margin: 0;
@@ -377,7 +377,7 @@ body {
 }
 }
 
-@media (min-width: 601px) and (max-width: 1024px){
+@media (min-width: 630px) and (max-width: 1024px){
     * {
         box-sizing: border-box;
     }
@@ -424,12 +424,13 @@ body {
     text-align: left;
     align-items: center;
 }
-.img2, .img3 {
+.img3 {
   width: 300px;
    
 }
 .img2 {
-    height: 300px;
+    width: 40%;
+    height: auto;
 }
 
 .head {
@@ -446,7 +447,9 @@ body {
 .logos {
     display: flex;
     flex-direction: row;
-    margin-left: 70px;
+    margin-left: 10%;
+    background-color: black;
+    margin-right: 0%;
 }
 .grid {
     display: grid;
@@ -459,18 +462,18 @@ body {
     margin-top: 10px;
     text-align: left;
     color: hsl(210, 10%, 33%);
-    
 }
 .footing {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     margin-left: 0px;
+    background-color: black;
 }
 footer {
    background-color: hsl(220, 18%, 97%);
    display: flex;
    flex-direction: row;
-   gap: 30px;
+   gap: 20px;
 }
 .wrap2 {
     text-align: center;
@@ -480,7 +483,7 @@ footer {
     margin: 0 auto;
 
 }
-.wrap9, .wrap8, .wrap7 {
+.wrap8 {
     width: 80%;
     margin: 0 auto;
 }
@@ -500,8 +503,9 @@ footer {
 .wrap7 {
     text-align: center;
     padding: 20px;
+    width: 90%;
     justify-self: center;
-    margin-top: 10px;
+    margin: 30px auto;
     display: flex;
     flex-direction: row;
     gap: 30px;
